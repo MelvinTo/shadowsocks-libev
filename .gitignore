@@ -32,7 +32,7 @@ pid
 src/ss-*
 !src/ss-nat
 stamp-h1
-.libs
+#.libs
 .pc
 debian/shadowsocks-libev/
 debian/patches/
