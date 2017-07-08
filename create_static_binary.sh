@@ -1,5 +1,6 @@
 #!/bin/bash
 
+ln -sf slibs.$(uname -m) slibs
 COMMON_OBJ_FILES=$(ls -1 slibs/*)
 LINK_LIBS="-Wall -lev -ludns  -lsodium -lpcre -lm -lpcre -lpthread"
 
